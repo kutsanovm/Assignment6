@@ -1,0 +1,11 @@
+\documentclass[10pt]{article}
+\usepackage[usenames]{color} %used for font color
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[utf8]{inputenc} %useful to type directly diacritic characters
+\begin{document}
+As I was playing around with the values I was choosing to sort, I noticed that there was a difference in sorting time varying on how sorted the values were to begin with. For insertion sort, if the values were pretty mixed up, it took slightly longer to sort than if the values were pretty sorted already, which is sort of obvious. For bubble sort, the values that were already close to being in the right order sorted much quicker than the values that were more randomized. For selection sort, the different sets of values sorted at relatively similar times, the randomized set being slightly quicker- but
+this was only noticeable when I chose enough numbers. Both orders of values in quick sort sorted in essentially the same time. None of the differences, were so drastic
+that I was shocked. Bubble sort is the easiest to implement but it is not very efficient with large sets of numbers. It also works best with numbers in a randomized set. Insertion sort is also very simple and easy to implement, however, it works best with smaller
+sets of numbers, just like bubble sort. Quick sort, according to what I found in my research, is said to be the best sorting algorithm because it is able to efficiently deal with large sets of values. Additionally, its worst case performance is still not as slow as average cases for many other sorting algorithms. selection sort is very, very efficient and uses a low amount of memory. The tradeoff is that it is kind of unstable, sometimes not doing what it is supposed to (correctly sorting sets of values) when the set is very large. I do not think my choice of using C++ to create the sorting functions really affected the results. I am fairly comfortable with C++ at this time so it was pretty simple. I would have been more comfortable in java and less so in Python or C. Some shortcomings of this empirical analysis are that each run depends on the set of values we are sorting (both how sorted they already are, how many values there are, and the differences in how large or small they are).
+\end{document}
